@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://skripts/buttonskripns/main_menu.gd" type="Script" id=1]
+
+[node name="start_game" type="Button"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -155.5
+margin_top = -92.0
+margin_right = 159.5
+margin_bottom = -62.0
+text = "Start GAME"
+script = ExtResource( 1 )
