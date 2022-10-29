@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=2]
+[gd_scene load_steps=37 format=2]
 
 [ext_resource path="res://wasd car.gd" type="Script" id=1]
 [ext_resource path="res://car 5.png" type="Texture" id=2]
@@ -16,6 +16,8 @@
 [ext_resource path="res://tree 3.png" type="Texture" id=14]
 [ext_resource path="res://tree 4.png" type="Texture" id=15]
 [ext_resource path="res://tree 5.png" type="Texture" id=16]
+[ext_resource path="res://crosswalk start.png" type="Texture" id=17]
+[ext_resource path="res://короб.png" type="Texture" id=18]
 
 [sub_resource type="RectangleShape2D" id=8]
 extents = Vector2( 33.5, 144.25 )
@@ -2236,6 +2238,16 @@ shape = SubResource( 17 )
 [node name="CollisionShape2D11" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2( 598, 431.5 )
 shape = SubResource( 18 )
+
+[node name="Sprite346" type="Sprite" parent="StaticBody2D"]
+position = Vector2( 387, 100.125 )
+scale = Vector2( 0.124023, 0.17627 )
+texture = ExtResource( 17 )
+
+[node name="Sprite347" type="Sprite" parent="StaticBody2D"]
+position = Vector2( 981.25, 15.75 )
+scale = Vector2( 0.135, 0.105 )
+texture = ExtResource( 18 )
 
 [node name="wasd car" type="KinematicBody2D" parent="."]
 position = Vector2( 78, 427 )
