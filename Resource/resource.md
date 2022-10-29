@@ -1,1 +1,0 @@
-#This directory designed to store images and audio files used in the game
